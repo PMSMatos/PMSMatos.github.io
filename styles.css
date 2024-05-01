@@ -15,7 +15,7 @@
         }
 
         .sidebar {
-            font-family: "Lato", sans-serif;
+            font-family: Lato;
             position: fixed;
             top: 50%;
             width: 10%;
@@ -47,7 +47,7 @@
         }
 
         p.body {
-            font-family: "Lato", sans-serif;
+            font-family: Lato;
             text-indent: 20px;
             padding-left: 20%;
             padding-right: 20%;
@@ -57,7 +57,7 @@
         }
 
         td.body {
-            font-family: "Lato", sans-serif;
+            font-family: Lato;
             padding-left: 30px;
             padding-right: 30px;
             font-size: 12pt;
