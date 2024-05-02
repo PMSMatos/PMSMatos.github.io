@@ -21,11 +21,12 @@
             font-family: Lato;
             position: fixed;
             top: 50%;
-            width: 10%;
+            width: 11%;
             transform: translateY(-50%);
-            left: 0;
-            background-color: rgba(0, 0, 0, 1);
+            left: 10px;
+            background-color: rgba(0, 0, 0, .5);
             padding: 20px;
+            border: solid 2px rgba(255, 255, 255, 0.5);
         }
 
         .sidebar ul li a {
@@ -37,6 +38,10 @@
         .sidebar ul li a:hover {
             color: lightblue;
             text-decoration: underline;
+        }
+
+        li::marker {
+            color:rgba(250, 235, 215, 0);
         }
 
         p.body {
