@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+        .topbar {
+            position: fixed;
+            overflow: hidden;
+            margin: 0;
+            height: 50px;
+            width: 100%;
+            background-color: rgb(0, 0, 0);
+        }
+
         .header {
             font-family: Cinzel;
             font-weight: 200;
@@ -7,11 +16,6 @@
             font-stretch: condensed;
             text-align: Center;
             color: antiquewhite;
-        }
-
-        div.center {
-            margin-left: 10%;
-            margin-right: 10%;
         }
 
         .sidebar {
@@ -36,16 +40,6 @@
             text-decoration: underline;
         }
 
-        .container {
-            position: relative;
-            width: 5%;
-            /* Adjust the width of the sidebar */
-            display: grid;
-            align-items: center;
-            grid-template-columns: 1fr 1fr 1fr;
-            column-gap: 5px;
-        }
-
         p.body {
             font-family: Lato;
             text-indent: 20px;
@@ -53,7 +47,7 @@
             padding-right: 20%;
             font-size: 14pt;
             text-align: left;
-            color: antiquewhite;
+            color: rgb(250, 235, 215);
         }
 
         td.body {
